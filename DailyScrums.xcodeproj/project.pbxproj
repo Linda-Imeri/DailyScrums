@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C9E734C28F5C58E00F56DB3 /* DailyScrumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E734B28F5C58E00F56DB3 /* DailyScrumsApp.swift */; };
-		9C9E734E28F5C58E00F56DB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E734D28F5C58E00F56DB3 /* ContentView.swift */; };
+		9C9E734E28F5C58E00F56DB3 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E734D28F5C58E00F56DB3 /* MeetingView.swift */; };
 		9C9E735028F5C59000F56DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9E734F28F5C59000F56DB3 /* Assets.xcassets */; };
 		9C9E735328F5C59000F56DB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9E735228F5C59000F56DB3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		9C9E734828F5C58E00F56DB3 /* DailyScrums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyScrums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9E734B28F5C58E00F56DB3 /* DailyScrumsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrumsApp.swift; sourceTree = "<group>"; };
-		9C9E734D28F5C58E00F56DB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C9E734D28F5C58E00F56DB3 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		9C9E734F28F5C59000F56DB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C9E735228F5C59000F56DB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				9C9E734B28F5C58E00F56DB3 /* DailyScrumsApp.swift */,
-				9C9E734D28F5C58E00F56DB3 /* ContentView.swift */,
+				9C9E734D28F5C58E00F56DB3 /* MeetingView.swift */,
 				9C9E734F28F5C59000F56DB3 /* Assets.xcassets */,
 				9C9E735128F5C59000F56DB3 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C9E734E28F5C58E00F56DB3 /* ContentView.swift in Sources */,
+				9C9E734E28F5C58E00F56DB3 /* MeetingView.swift in Sources */,
 				9C9E734C28F5C58E00F56DB3 /* DailyScrumsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
