@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C6EBCF028F9E840002B2693 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EBCEF28F9E840002B2693 /* Theme.swift */; };
 		9C9E734C28F5C58E00F56DB3 /* DailyScrumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E734B28F5C58E00F56DB3 /* DailyScrumsApp.swift */; };
 		9C9E734E28F5C58E00F56DB3 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E734D28F5C58E00F56DB3 /* MeetingView.swift */; };
 		9C9E735028F5C59000F56DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9E734F28F5C59000F56DB3 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C6EBCEF28F9E840002B2693 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		9C9E734828F5C58E00F56DB3 /* DailyScrums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyScrums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9E734B28F5C58E00F56DB3 /* DailyScrumsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrumsApp.swift; sourceTree = "<group>"; };
 		9C9E734D28F5C58E00F56DB3 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C6EBCEE28F9E825002B2693 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C6EBCEF28F9E840002B2693 /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		9C9E733F28F5C58E00F56DB3 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		9C9E734A28F5C58E00F56DB3 /* DailyScrums */ = {
 			isa = PBXGroup;
 			children = (
+				9C6EBCEE28F9E825002B2693 /* Models */,
 				9C9E734B28F5C58E00F56DB3 /* DailyScrumsApp.swift */,
 				9C9E734D28F5C58E00F56DB3 /* MeetingView.swift */,
 				9C9E734F28F5C59000F56DB3 /* Assets.xcassets */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C6EBCF028F9E840002B2693 /* Theme.swift in Sources */,
 				9C9E734E28F5C58E00F56DB3 /* MeetingView.swift in Sources */,
 				9C9E734C28F5C58E00F56DB3 /* DailyScrumsApp.swift in Sources */,
 			);
