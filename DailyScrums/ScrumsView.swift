@@ -10,9 +10,9 @@ struct ScrumsView: View {
     let scrums: [DailyScrum]
     var body: some View {
         List{
-            ForEach (scrums,id: \.title) {
+            ForEach (scrums) {
                 scrum in
-                CardView(scrum: scrum).background(scrum.theme.mainColor)
+                CardView(scrum: scrum).listRowBackground(scrum.theme.mainColor)
             }
         }
     }
