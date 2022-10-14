@@ -20,19 +20,26 @@ struct MeetingView: View {
                 Spacer()
                 VStack(alignment: .trailing) {
                     Text("Seconds Remaining")
+                        .font(.caption)
                     Label("600",systemImage:  "hourglass.tophalf.fill")
                 }
             }
             ZStack{
-                Circle()
-                Text("CHELLA is speaking").foregroundColor(Color.white)
+                Circle().strokeBorder(lineWidth: 24)
+                Text("CHELLA is speaking").foregroundColor(Color.black)
             }
             HStack{
                 Text("Speaker 2 of 10")
                 Spacer()
-                Image(systemName: "forward.fill")
+                Button(action: {
+                    
+                }, label: {
+                    Image(systemName: "forward.fill")
+                })
             }
-        }.background(Color.pink)
+        }
+        //.background(Color.pink)
+            .padding()
     }
 }
 
