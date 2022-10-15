@@ -10,7 +10,26 @@ import SwiftUI
 struct DetailView: View {
     let scrum: DailyScrum
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List{
+            Section(header: Text("MEETING INFO")){
+                Label("Start Meeting",systemImage: "timer")
+                    .foregroundColor(.accentColor)
+                    .font(.headline)
+                HStack{
+                    Label("Length",systemImage: "clock")
+                    Spacer()
+                    Text("\(scrum.lengthInMinutes) minutes")
+                }
+                HStack{Label("Theme", systemImage: "paintpalette")
+                    Spacer()
+                    Text(scrum.theme.name)
+                        .padding(4)
+                        .background(scrum.theme.mainColor)
+                        .foregroundColor(scrum.theme.accentColor)
+                        .cornerRadius(4)
+                }
+            }
+        }
     }
 }
 
